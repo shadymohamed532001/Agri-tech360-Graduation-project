@@ -146,7 +146,65 @@ We welcome contributions to Agri-tech360. To contribute, please follow these ste
 |                                                    Comment                                                      | Contact | Care Instractions                                                                                         |
 | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 |<img width="351" alt="comment" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/3c7a4c9e-b625-4595-b241-8cd10722392d">| <img width="351" alt="contact and payment" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/311a05ca-a8df-4135-b28a-c3706384492b"> |  <img width="351" alt="care instraction plant details " src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/ed0bcaa1-2a9c-415c-a4ee-4e8549fe9a14">
- 
+ # Agri-tech360
+
+## Requirements
+
+Python 3.8–3.11
+
+## Instalation
+
+First, clone this repository.
+
+    $ git clone https://github.com/Sheryoo/Agri-tech360.git
+    $ cd Agri-tech360
+
+Then, add your .env file with this data:
+
+    $ HOST = .....
+    $ PORT = ....
+    $ SECRET_KEY = ....
+    $ OPEN_WEATHER_API_KEY = ....
+    $ PLANT_ID_API_KEY = ....
+    $ PLANT_API_KEY = ....
+    $ GEMINI_API_KEY = ....
+
+Then, create Venv and activate it:
+
+### For Windows:
+
+    $ python -m venv env
+    $ source env/bin/activate
+
+### For Mac or Linux:
+
+    $ python3 -m venv env
+    $ source env/bin/activate
+
+After, install all necessary to run:
+
+### For Windows:
+
+    $ pip install -r requirements.txt
+
+### For Mac or Linux:
+
+    $ pip3 install -r requirements.txt
+
+Then, run the application:
+
+### For Windows:
+
+    $ python app.py
+
+### For Mac or Linux:
+
+    $ python3 app.py
+
+To see your application, access this URL in your browser:
+
+    http://{HOST}:{PORT}
+
 
 <img width="1440" alt="Screenshot 2024-05-03 at 6 24 33 AM" src="https://github.com/shadymohamed532001/Agri-tech360-Graduation-project/assets/126605393/9e87cc81-8450-4307-8311-acf0e1a6beb8">
 
