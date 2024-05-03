@@ -1,10 +1,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/shadymohamed532001/SmartSoil/assets/126605393/ab959f5b-b246-4af1-ac7f-4422b0ea48d9" alt="Logo" width="300" height="200">
+    <img src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/ccec0b90-77a4-441e-b34a-85d9951c03be" alt="Logo" width="300" height="300">
   </a>  
   
-# 👋 Welcome! Agri-tech360 Project
+# 👋 Welcome! Agri-tech360 App README.md
 
 <b>AI-Powered Plant Detection, Diagnosis, and Plant Recommender for Precision Farming
 </b>
@@ -12,40 +12,144 @@
 
 ## Overview
 
-Introducing Agri-tech 360: our user-friendly app and website revolutionizing agriculture. With an intuitive interface, it offers advanced features like plant disease detection with medication recommendations, a user-rated store, and sentiment analysis for product feedback. Predict soil Type for optimal crop selection, explore detailed plant information, and stay informed with real-time weather updates. Our AI chatbot provides instant support, empowering users with comprehensive agricultural tools for productivity and sustainability.
+Welcome to Agri-tech360, your comprehensive agricultural solution designed to elevate your farming experience to new heights. With Agri-tech360, we've combined cutting-edge technology, expert knowledge, and intuitive design to provide you with a complete toolkit for success in agriculture.
 
-Agri-tech360 offers a comprehensive solution to address the challenges identified in the agricultural sector. The platform leverages innovative technologies and features to achieve its objectives and improve agricultural practices. Below are the key components of the proposed solution:
+At the heart of Agri-tech360 lies our advanced machine-learning capabilities. Our app harnesses the power of machine learning algorithms to accurately diagnose plant leaf diseases with precision and speed. Simply snap a photo of a troubled leaf, and let Agri-tech360 analyze it to identify the disease and recommend the most effective treatment options. Say goodbye to guesswork and uncertainty, and hello to confident decision-making in crop health management.
 
-#### 1.	Advanced Plant Disease Detection and Management:
+But Agri-tech360 is more than just a diagnosis tool – it's a visionary. Leveraging predictive analytics and machine learning models, Agri-tech360 forecasts the future of your farm by predicting the next optimal crop for cultivation. By considering soil conditions, historical crop data, and weather forecasts, Agri-tech360 empowers you to make informed decisions that optimize yield and promote sustainable farming practices.
 
-•	Agri-tech360 utilizes AI-driven computer vision technology to enable early detection and management of plant diseases.
+Delve deeper into the world of agriculture with Agri-tech360's extensive plant exploration feature. Our app boasts a vast database of plants, each accompanied by detailed information on their characteristics, growth requirements, and care instructions. Whether you're a seasoned farmer or a novice gardener, Agri-tech360 equips you with the knowledge and insights needed to nurture your plants to their fullest potential.
 
-•	Users can upload images of diseased plants for analysis, receive accurate diagnoses, and access recommendations for treatment and management.
+But we don't stop there. Agri-tech360 is your one-stop shop for all your agricultural needs. Easily purchase recommended treatment products directly through the app, streamlining the process of caring for your crops and saving you time and effort.
 
-#### 2.	Crop Recommendation and Soil prediction:
+With Agri-tech360, the possibilities are endless. Whether you're managing a small family garden or running a large-scale farm operation, our app is here to support you every step of the way. Say hello to smarter farming, improved crop health, and greater productivity with Agri-tech360.
 
-•	Agri-tech360 provides users with tools for Recommend crop suitability based on soil Type, season, and previous crop.
 
-#### 3.	Comprehensive Plant Information Database
 
-4.	User Feedback and Sentiment Analysis:
+## Features
 
-•	Agri-tech 360 facilitates user feedback through features such as ratings, comments, and reviews.
+Roome offers the following features:
 
-•	sentiment analysis is used to analyze user feedback and provide insights to administrators for product improvement and decision-making
+- `Clean architecture`: The app follows the principles of clean architecture, which promotes separation of concerns and maintainability.
+- `Cubit state management`: Agri-tech360 utilizes Cubit as a state management solution to efficiently handle and update the UI based on the app's internal state.
+- `Plant Disease Detection`: 	Agri-tech360 utilizes AI-driven computer vision technology to enable early detection and management of plant diseases.
+- `Crop Recommendation and Soil Prediction`:Agri-tech360 provide users with tools for Recommending crop suitability based on soil type, season, and previous crop.
+- `AiChat`:AiChat is a specialized virtual assistant within Agri-tech360 dedicated to answering plant-related questions. Powered by AI technology, it offers tailored assistance, real-time recommendations,           and detailed information specifically tailored to users' inquiries about plants.
+- `Product details`: Users can explore detailed information about each product, including, images, pricing, sales, and availability.
+- `Plant details`: Users can explore detailed information about each plants.
+- `Favorites`: Agri-tech360 allows users to add products to their favorites list for easy access and quick puy it.
+- `Real-time Weather Updated`: Agri-tech 360 provides users with real-time weather updates to enhance their understanding of local weather conditions.
+- `Real-time Weather Updated`: sentiment analysis is used to analyze user feedback and provide insights to administrators for product improvement and decision-making.
 
-#### 5.	Real-time Weather Updated:
-
-•	Agri-tech 360 provides users with real-time weather updates to enhance their understanding of local weather conditions.
-
-•	Emphasize features as current weather conditions, temperature forecasts, and precipitation alerts to help users stay informed about weather patterns in their area.
-
-#### 6.	Intelligent Chatbot Support:
-
-•	Agri-tech 360 offers users instant assistance through an AI-powered chatbot.
-
-•	provide personalized guidance on plant care, disease management, and agricultural best practices.
-
+## Use case Diagram
 
 ![alt text](image.png)
-<span>Use case Diagram</span>
+
+
+
+<div align="start">
+  
+# 🖥️ System design
+    ├── lib
+    │   ├── Feature
+    │   │   ├── onboarding
+    │   │   ├── auth
+    │   │   ├── layout
+    │   │   ├── home
+    │   │   ├── plantClassification
+    │   │   ├── recommendNextCrop
+    │   │   ├── explore
+    │   │   ├── favorites
+    │   │   ├── profile
+    │   │   ├── store
+    │   │   ├── details
+    │   │   ├── checkout
+    │   │   ├── details
+    │   │   ├── ai_Chat
+    │   │   ├── comments
+    │   ├── core
+    │   │   ├── Di
+    │   │   ├── error
+    │   │   ├── helper
+    │   │   ├── models
+    │   │   ├── networking
+    │   │   ├── routing
+    │   │   ├── theming
+    │   │   ├── widgets
+    │   │  
+    │   ├── bloc_observer.dart.dart
+    │   ├── app_widget.dart
+    └── └── main.dart
+
+## Usage
+
+Once the Roome app is installed and launched, follow these steps to utilize its features:
+
+1. Sign up or log in to your Agri-tech360 account.
+2. Upload a plant leaf image to Agri-tech360's PlantClassification feature to instantly diagnose diseases and receive treatment recommendations.
+3. Upload an image of the soil and previous crop to Agri-tech360's RecommendNextCrop feature for instant recommendations on the next best crop to plant.
+4. View detailed information about each plant, including images, descriptions, ratings, and Care instructions.
+5. View detailed information about each product, including images, descriptions, ratings, Price, and seller.
+
+
+## Contributing
+
+We welcome contributions to Agri-tech360. To contribute, please follow these steps:
+
+- Fork the repository.
+- Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name.
+- Make your changes and commit them with descriptive commit messages.
+- Push your changes to the new branch on your forked repository.
+- Submit a pull request to the original repository.
+
+|                                                        Onboarding 1                                                        | Onboarding 2 | Onboarding 3  
+| :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <img width="351" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/134b2a0c-0a96-4c8a-87ec-3ce8c8ac18b3"> |     <img width="351" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/f7bfebbf-5241-4083-b55c-9e3b00b1aec0">      | <img width="351" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/8090ab34-edb6-42bb-b057-f14b000c6871"> |
+
+
+
+|                                                       Sign In                                                       | Sign Up | Home                                                                                          |
+| :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <img width="351" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/154fa40b-3cde-4abc-9e81-b21be75f5b77"> |     <img width="351" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/b30b3b9e-c316-42bb-9ae0-d1e50bb86104">      |  <img width="351" alt="home" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/b82e5474-e3a0-4b71-bacd-6bc732bd5920">
+
+
+
+
+
+
+  |                                                           Product Store                                                    | plant Explor |Ai Chat                                                                                          |
+| :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <img width="351" alt="store" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/c1f5cfe7-54b2-4ca6-8917-0aec2c3583de"> |     <img width="351" alt="explor" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/027adf39-0ee6-4f0d-99d1-c45448c90b25">    | <img width="351" alt="ai" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/6f7caafa-00e5-42fa-9d32-6e73174fb3b1"> |
+
+
+
+
+|                                                       Product Details                                                       | Favorite | Plant Detals                                                                                          |
+| :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+|<img width="351" alt="product details" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/25a13197-3025-40df-b78f-b80cdc24a622"> |  <img width="351" alt="favorite" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/0ce37cdd-60b4-4911-9c1c-66eae55d66d4">  |  <img width="351" alt="plant details" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/98741a1a-d140-4940-8b66-7a6612b20c5e"> |
+
+
+
+
+
+
+
+|                                                Soil Classfiction                       |  plantClassfiction | Profile                                                    |
+| :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+|<img width="351" alt="soil classfiction" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/fd333458-2d44-4956-80e3-f5146dc41868"> |  <img width="351" alt="plant classfction" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/25955d40-2bbc-4e69-9462-cec1ae18dd2e">| <img width="351" alt="profile" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/0ec453dd-10aa-43c5-baa7-1556a9ca3ccc">||
+
+
+
+
+
+
+|                                                    Comment                                                      | Contact | Care Instractions                                                                                         |
+| :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+|<img width="351" alt="comment" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/3c7a4c9e-b625-4595-b241-8cd10722392d">| <img width="351" alt="contact and payment" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/311a05ca-a8df-4135-b28a-c3706384492b"> |  <img width="351" alt="care instraction plant details " src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/ed0bcaa1-2a9c-415c-a4ee-4e8549fe9a14">
+ 
+
+<img width="1440" alt="Screenshot 2024-05-03 at 6 24 33 AM" src="https://github.com/shadymohamed532001/Agri-tech360-Graduation-project/assets/126605393/9e87cc81-8450-4307-8311-acf0e1a6beb8">
+
+
+
+
