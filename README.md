@@ -146,7 +146,7 @@ We welcome contributions to Agri-tech360. To contribute, please follow these ste
 |                                                    Comment                                                      | Contact | Care Instractions                                                                                         |
 | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 |<img width="351" alt="comment" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/3c7a4c9e-b625-4595-b241-8cd10722392d">| <img width="351" alt="contact and payment" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/311a05ca-a8df-4135-b28a-c3706384492b"> |  <img width="351" alt="care instraction plant details " src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/ed0bcaa1-2a9c-415c-a4ee-4e8549fe9a14">
- # Agri-tech360
+ # Agri-tech360 Back End
 
 ## Requirements
 
@@ -208,6 +208,50 @@ To see your application, access this URL in your browser:
 
 <img width="1440" alt="Screenshot 2024-05-03 at 6 24 33 AM" src="https://github.com/shadymohamed532001/Agri-tech360-Graduation-project/assets/126605393/9e87cc81-8450-4307-8311-acf0e1a6beb8">
 
+
+
+ # Agri-tech360 Front End
+
+
+<span>Using React as a powerful JavaScript library for building user interfaces, known for its efficiency and flexibility. Developed by Facebook, it has become a cornerstone in modern web development. React follows a component-based architecture, breaking down user interfaces into reusable, self-contained units called components. This modular approach promotes code reusability, maintainability, and scalability, making it easier to manage complex applications.
+</span>
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 
 
