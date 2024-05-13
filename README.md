@@ -103,6 +103,14 @@ We welcome contributions to Agri-tech360. To contribute, please follow these ste
 - Push your changes to the new branch on your forked repository.
 - Submit a pull request to the original repository.
 
+
+# Agri-tech360 App 
+  
+  
+![agri-tech360](https://github.com/shadymohamed532001/Agri-tech360-Graduation-project/assets/126605393/5a7b6853-3557-4003-8a22-a3c22a7b22eb)
+
+  
+
 |                                                        Onboarding 1                                                        | Onboarding 2 | Onboarding 3  
 | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | <img width="351" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/134b2a0c-0a96-4c8a-87ec-3ce8c8ac18b3"> |     <img width="351" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/f7bfebbf-5241-4083-b55c-9e3b00b1aec0">      | <img width="351" src="https://github.com/shadymohamed532001/Agri-tech360/assets/126605393/8090ab34-edb6-42bb-b057-f14b000c6871"> |
